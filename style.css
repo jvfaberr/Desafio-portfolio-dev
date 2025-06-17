@@ -61,7 +61,7 @@ body {
 }
 
 .card:hover {
-  transform: scale(1.03);
+  transform: scale(1.05);
 }
 
 .card img {
@@ -70,4 +70,20 @@ body {
   object-fit: cover;
   object-position: top;
   border-radius: 10px;
+}
+
+.card.receita h3::after {
+  content: " 🍰";
+}
+
+.card.travelgram h3::after {
+  content: " ✈️";
+}
+
+.card.portal-noticias h3::after {
+  content: " 🗞️";
+}
+
+.card:hover p {
+  color: var(--cor-principal);
 }
