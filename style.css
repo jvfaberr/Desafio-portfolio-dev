@@ -21,13 +21,33 @@ body {
 
 .cabecalho {
   text-align: center;
-  padding: 40px 0;
+  padding: 50px 0;
+}
+
+.meu-nome {
+  color: var(--cor-destaque); /* Ou outra cor de destaque */
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.meu-nome:hover {
+  transform: scale(1.05);
 }
 
 .avatar {
-  width: 100px;
+  width: 125px;
   border-radius: 50%;
   border: 3px solid var(--cor-principal);
+}
+
+.introducao h1 {
+  font-size: 38px;
+}
+
+.introducao p {
+  font-size: 20px;
 }
 
 .destaque {
@@ -53,11 +73,23 @@ body {
 .card {
   background-color: var(--cor-card);
   padding: var(--padding);
-  border-radius: 15px;
+  border-radius: 16px;
   transition: transform 0.3s;
   display: flex;
   flex-direction: column;
   height: 100%;
+}
+
+.card h3 {
+  font-size: 20px;
+}
+
+.card p {
+  font-size: 16px;
+}
+
+.card a {
+  font-size: 20px;
 }
 
 .card:hover {
@@ -96,7 +128,6 @@ body {
   color: white;
   text-decoration: none;
   border-radius: 8px;
-  transition: background 0.3s;
   font-weight: bold;
 }
 
@@ -104,10 +135,14 @@ body {
   background-color: #ff6680;
 }
 
+.card p, .introducao p {
+  line-height: 1.6;
+}
+
 footer {
   text-align: center;
   padding: 30px;
-  font-size: 14px;
+  font-size: 23px;
 }
 
 .tecnologias {
@@ -135,4 +170,18 @@ footer {
 .tecnologias i:hover {
   transform: scale(1.1);
   color: var(--cor-destaque);
+}
+
+#projetos {
+  margin-top: 50px;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+footer {
+  color: var(--cor-texto);
+  padding: 30px 20px;
+  text-align: center;
+  border-top: 3px solid var(--cor-principal);
+  margin-top: 60px;
 }
