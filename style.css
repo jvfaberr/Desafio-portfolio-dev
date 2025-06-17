@@ -103,3 +103,36 @@ body {
 .card a:hover {
   background-color: #ff6680;
 }
+
+footer {
+  text-align: center;
+  padding: 30px;
+  font-size: 14px;
+}
+
+.tecnologias {
+  margin-top: 15px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tech-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 18px;
+  color: var(--cor-principal);
+  transition: transform 0.3s, color 0.3s;
+  cursor: default;
+}
+
+.tech-item i {
+  font-size: 28px;
+}
+
+.tecnologias i:hover {
+  transform: scale(1.1);
+  color: var(--cor-destaque);
+}
