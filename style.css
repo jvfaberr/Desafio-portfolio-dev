@@ -1,0 +1,21 @@
+:root {
+  --cor-principal: #ff3366;
+  --cor-fundo: #1e1e2f;
+  --cor-texto: #fff;
+  --cor-card: #2a2a40;
+  --padding: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--cor-fundo);
+  font-family: Arial, sans-serif;
+  color: var(--cor-texto);
+  padding: var(--padding);
+}
+
