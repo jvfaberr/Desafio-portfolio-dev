@@ -19,3 +19,17 @@ body {
   padding: var(--padding);
 }
 
+.cabecalho {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.avatar {
+  width: 100px;
+  border-radius: 50%;
+  border: 3px solid var(--cor-principal);
+}
+
+.destaque {
+  color: var(--cor-principal);
+}
