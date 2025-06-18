@@ -70,16 +70,6 @@ body {
   align-items: stretch;
 }
 
-.titulo-projetos {
-  font-size: 2.2rem;
-  color: var(--cor-destaque);
-  text-align: center;
-  margin-bottom: 40px;
-  position: relative;
-  font-weight: 700;
-  animation: flutuar 2s ease-in-out infinite alternate;
-}
-
 .card {
   background-color: var(--cor-card);
   padding: var(--padding);
@@ -96,10 +86,6 @@ body {
 
 .card p {
   font-size: 16px;
-}
-
-.card a {
-  font-size: 20px;
 }
 
 .card:hover {
@@ -131,6 +117,7 @@ body {
 }
 
 .card a {
+  font-size: 20px;
   display: inline-block;
   margin-top: 10px;
   padding: 6px 12px;
@@ -147,12 +134,6 @@ body {
 
 .card p, .introducao p {
   line-height: 1.6;
-}
-
-footer {
-  text-align: center;
-  padding: 30px;
-  font-size: 23px;
 }
 
 .tecnologias {
@@ -175,11 +156,6 @@ footer {
 
 .tech-item i {
   font-size: 28px;
-}
-
-.tecnologias i:hover {
-  transform: scale(1.1);
-  color: var(--cor-principal);
 }
 
 #projetos {
